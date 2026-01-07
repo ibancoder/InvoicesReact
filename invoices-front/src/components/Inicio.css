@@ -1,0 +1,36 @@
+.inicio-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.inicio-main {
+  flex-grow: 1;
+  padding: 40px 20px;
+}
+
+.inicio-paragraph {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.inicio-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inicio-footer {
+  margin-top: auto;
+  padding: 10px;
+  background-color: #ddd;
+  color: #333;
+  border-radius: 0 0 5px 5px;
+  font-size: 0.9em;
+}

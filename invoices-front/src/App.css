@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "swissci";
+  src: url("./fonts/swissci.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.app-container {
+  font-family: "swissci", sans-serif;
+  background-color: #333;
+  min-height: 100vh;
+}
+
+.nav-items {
+  font-family: "swissci", sans-serif;
+  margin-top: 20px;
+  text-align: center;
+}
+.nav-items a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #4a6ce0;
+  font-weight: 500;
+}
+.nav-items a:hover {
+  text-decoration: underline;
+  color: red;
+}

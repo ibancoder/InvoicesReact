@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "swissko";
+  src: url("../fonts/swissko.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "swissci";
+  src: url("../fonts/swissci.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo-text {
+  font-family: "swissko", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 50px;
+  color: rgb(254, 254, 254);
+  -webkit-text-stroke: 1px #2043a0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 255, 0.4);
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.logo-subtitle {
+  font-family: "swissci", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: #4a6ce0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 255, 0.3);
+  margin-top: 0px;
+}
